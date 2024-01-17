@@ -1,0 +1,43 @@
+<div class="create-new-comment">
+  <h4>{{ 'newComments.title' | translate }}</h4>
+
+  <form [formGroup]="newCommentForm">
+    <div class="edit-rows">
+      <label>{{ 'common.labelTitle' | translate }}*:</label>
+      <input class="form-control" type="text" name="editDataTitle" formControlName="title"/>
+    </div>
+
+    <div class="edit-rows">
+      <label>{{ 'common.labelText' | translate }}*:</label>
+      <textarea class="form-control" name="editDataText" formControlName="text"></textarea>
+    </div>
+
+    <div class="edit-rows">
+      <label>{{ 'common.labelTags' | translate }}*:</label>
+
+      <ng-select
+        class="dropdown"
+        formControlName="input"
+        [addTag]="true"
+        [items]="tags$ | async"
+      >
+      </ng-select>
+
+      <button class="btn btn-dark" (click)="addTag()">{{ 'common.addNewTag' | translate }}</button>
+
+      <div *ngFor="let tag of selectedTags" class="form-tag-list">
+        <div class="form-tag-list">
+          <button class="delete-tag" (click)="removeTag(tag)">
+            <img src="./assets/icons/bin.png" data-toggle="tooltip" title="Delete">
+          </button>
+          <span>{{ tag }}</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="buttons">
+      <button class="btn btn-light" (click)="resetForm()">{{ 'newComments.reset' | translate }}</button>
+      <button class="btn btn-dark" type="submit" [disabled]="!isFormValid" (click)="createComment()">{{ 'newComments.create' | translate }}</button>
+    </div>
+  </form>
+</div>

@@ -1,0 +1,47 @@
+@import 'variables.scss';
+
+.comment-header {
+  background: $light-blue;
+  padding: 20px;
+  min-height: 20px;
+  position: relative;
+}
+
+.comment-body {
+  background-color: $light-green;
+  padding: 30px;
+}
+
+.comment-title {
+  margin-right: 15px;
+}
+
+.comment-tags {
+  margin-left: 5px;
+}
+
+.comment-tag {
+  background-color: $dark-green;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.comment-icons {
+  position: absolute;
+  right: 25px;
+}
+
+img {
+  height: 30px;
+}
+
+button {
+  background-color: transparent;
+  border: unset;
+}
+
+.bold-text {
+  font-size: $font-md;
+  font-weight: 700;
+}

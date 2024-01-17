@@ -1,0 +1,11 @@
+<div class="overlay" (click)="handleCanceling()"></div>
+
+<div class="dialog">
+  <h2>{{ title }}</h2>
+  <p>{{ message }}</p>
+
+  <div class="buttons">
+    <button class="btn btn-light" (click)="handleCanceling()">{{ 'dialog.no' | translate }}</button>
+    <button class="btn btn-dark" (click)="handleConfirming()">{{ 'dialog.yes' | translate }}</button>
+  </div>
+</div>

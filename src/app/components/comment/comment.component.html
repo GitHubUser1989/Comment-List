@@ -1,0 +1,34 @@
+<div *ngIf="!isEditMode; else editMode" class="comment">
+  <div class="comment-header">
+    <span class="bold-text">{{ comment.title }}</span>
+
+    <span class="comment-tags">
+      | <span *ngFor="let tag of comment.tags" class="comment-tag">{{ tag }}</span>
+    </span>
+
+    <span class="comment-icons">
+      <button class="edit-comment" type="button" (click)="toggleEditing()">
+        <img src="./assets/icons/pencil.png">
+      </button>
+
+      <button class="delete-comment" type="button" (click)="openDialog()">
+        <img src="./assets/icons/bin.png">
+      </button>
+    </span>
+  </div>
+
+  <div class="comment-body" [innerHTML]="commentText"></div>
+</div>
+
+<ng-template #editMode class="edit-mode">
+  <app-edit-comment [comment]="comment" (cancel)="toggleEditing()"></app-edit-comment>
+</ng-template>
+
+<app-dialog
+  *ngIf="isDialogOpen"
+  [title]="'dialog.title' | translate"
+  [message]="'dialog.message' | translate"
+  (cancel)="closeDialog()"
+  (confirm)="deleteComment($event)"
+>
+</app-dialog>

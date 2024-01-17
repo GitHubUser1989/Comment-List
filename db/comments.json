@@ -1,0 +1,204 @@
+{
+  "comments": [
+    {
+      "id": "1",
+      "title": "Bug in Login Page",
+      "text": "Users are experiencing issues with the login page. After entering credentials, the system does not authenticate the user. For further information check the following link: <a href=”​www.google.com”​ >Link</a>",
+      "tags": [
+        "bug",
+        "login",
+        "authentication"
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Feature Request: Dark Mode",
+      "text": "Add a dark mode option for users who prefer a darker color scheme.",
+      "tags": [
+        "feature request",
+        "design",
+        "user interface"
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Task: Implement User Profile Page",
+      "text": "Create a user profile page with options to update personal information and profile picture.",
+      "tags": [
+        "task",
+        "user profile",
+        "frontend"
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Issue with Image Upload",
+      "text": "Users are unable to upload images. Investigate and fix the issue.",
+      "tags": [
+        "issue",
+        "image upload",
+        "bug"
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Comment on Recent Update",
+      "text": "The latest software update introduced new features. Users are excited about the changes.",
+      "tags": [
+        "comment",
+        "update",
+        "user feedback"
+      ]
+    },
+    {
+      "id": "6",
+      "title": "Task: Create API Documentation",
+      "text": "Generate comprehensive documentation for the API endpoints and usage.",
+      "tags": [
+        "task",
+        "documentation",
+        "API"
+      ]
+    },
+    {
+      "id": "7",
+      "title": "Security Concern: Password Encryption",
+      "text": "Review and enhance password encryption methods for improved security.",
+      "tags": [
+        "security",
+        "password",
+        "encryption"
+      ]
+    },
+    {
+      "id": "8",
+      "title": "Enhancement: Mobile Responsiveness",
+      "text": "Optimize the application for better responsiveness on mobile devices.",
+      "tags": [
+        "enhancement",
+        "mobile",
+        "responsive design"
+      ]
+    },
+    {
+      "id": "9",
+      "title": "Task: Implement Notification System",
+      "text": "Develop a notification system to alert users about important updates and events.",
+      "tags": [
+        "task",
+        "notification",
+        "frontend"
+      ]
+    },
+    {
+      "id": "10",
+      "title": "Bug: Incorrect Data Displayed",
+      "text": "Data inconsistencies observed in certain sections of the application. Investigate and resolve.",
+      "tags": [
+        "bug",
+        "data",
+        "display"
+      ]
+    },
+    {
+      "id": "11",
+      "title": "Feature Request: Multi-Language Support",
+      "text": "Allow users to choose their preferred language for the application.",
+      "tags": [
+        "feature request",
+        "internationalization",
+        "language"
+      ]
+    },
+    {
+      "id": "12",
+      "title": "Task: Conduct Usability Testing",
+      "text": "Plan and conduct usability testing sessions to gather user feedback.",
+      "tags": [
+        "task",
+        "usability testing",
+        "user experience"
+      ]
+    },
+    {
+      "id": "13",
+      "title": "Issue: Server Downtime",
+      "text": "Users are reporting frequent server downtime. Investigate and address the server stability.",
+      "tags": [
+        "issue",
+        "server",
+        "downtime"
+      ]
+    },
+    {
+      "id": "14",
+      "title": "Comment: Positive Feedback",
+      "text": "A user expresses satisfaction with the application's performance and user-friendly interface.",
+      "tags": [
+        "comment",
+        "user feedback",
+        "positive"
+      ]
+    },
+    {
+      "id": "15",
+      "title": "Task: Conduct Code Review",
+      "text": "Initiate a code review session to ensure code quality and identify potential improvements.",
+      "tags": [
+        "task",
+        "code review",
+        "quality assurance"
+      ]
+    },
+    {
+      "id": "16",
+      "title": "Enhancement: Search Functionality",
+      "text": "Improve the search functionality to provide more accurate and relevant results.",
+      "tags": [
+        "enhancement",
+        "search",
+        "user experience"
+      ]
+    },
+    {
+      "id": "17",
+      "title": "Bug: Form Submission Error",
+      "text": "Users encounter errors when submitting forms. Investigate and fix the form submission process.",
+      "tags": [
+        "bug",
+        "form submission",
+        "error"
+      ]
+    },
+    {
+      "id": "18",
+      "title": "Task: Implement Two-Factor Authentication",
+      "text": "Enhance security by implementing two-factor authentication for user accounts.",
+      "tags": [
+        "task",
+        "security",
+        "authentication"
+      ]
+    },
+    {
+      "id": "19",
+      "title": "Feature Request: Offline Mode",
+      "text": "Users request the ability to use certain features offline. Evaluate and plan for offline functionality.",
+      "tags": [
+        "feature request",
+        "offline mode",
+        "user experience"
+      ]
+    },
+    {
+      "id": "20",
+      "title": "Issue: Data Loss During Update",
+      "text": "Some users report data loss during recent updates. Investigate and implement data recovery measures.",
+      "tags": [
+        "issue",
+        "data loss",
+        "update"
+      ]
+    }
+  ]
+}

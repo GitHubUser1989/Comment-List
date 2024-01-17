@@ -1,0 +1,26 @@
+<div class="header">
+  <div class="title">
+    <span class="count-comments">{{ 'listComments.title' | translate : { count: (comments$ | async)?.length || 0 } }}</span>
+
+    <span class="filter-comments">
+      <label>{{ 'listComments.filterByTags' | translate }}</label>
+    </span>
+  </div>
+
+  <div *ngFor="let tag of (tags$ | async)" class="form-tag-list">
+    <div class="form-tag-list">
+      <input class="form-check-input" type="checkbox" name="tagCheckbox" (change)="filteredComments(tag)">
+      <span>{{ tag }}</span>
+    </div>
+  </div>
+</div>
+
+<div *ngIf="(comments$ | async)?.length; else noComments">
+  <div *ngFor="let comment of comments$ | async" class="comment-list">
+    <app-comment [comment]="comment" (delete)="removeComment(comment.id)"></app-comment>
+  </div>
+</div>
+
+<ng-template #noComments>
+  <p class="no-comments">{{ 'listComments.noComments' | translate }}</p>
+</ng-template>

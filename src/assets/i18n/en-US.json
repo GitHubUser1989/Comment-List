@@ -1,0 +1,30 @@
+{
+  "common": {
+    "labelTitle": "Title",
+    "labelText": "Text",
+    "labelTags": "Tags",
+    "addNewTag": "Add new tag"
+  },
+  "listComments": {
+    "title": "Comments ({{ count }})",
+    "filterByTags": "Filter by tags:",
+    "noComments": "No comments found for display!"
+  },
+  "editComments": {
+    "title": "Edit Comment",
+    "cancel": "Cancel",
+    "save": "Save"
+  },
+  "newComments": {
+    "title": "New Comment",
+    "reset": "Reset",
+    "create": "Create"
+  },
+  "dialog": {
+    "title": "Confirm Deletion",
+    "message": "Are you sure you want to delete the comment?",
+    "yes": "Yes",
+    "no": "No"
+  }
+}
+  
